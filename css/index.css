@@ -71,12 +71,28 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 30px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content img {
+    margin-bottom: 30px;
 }
 
 .top-content .text-container {
@@ -110,6 +126,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box:nth-child(1){
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2){
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3){
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4){
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5){
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6){
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7){
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8){
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9){
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10){
+    background: dodgerblue;
 }
 
 .bottom-content {
