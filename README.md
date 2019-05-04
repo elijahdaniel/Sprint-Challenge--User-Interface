@@ -51,7 +51,7 @@ Y-axis - Vertical
 
 5. Explain why git is valuable to a team of developers.
 
-With Git, you have the power to return back to a previous state if you somehow messup, or lose the code you are working on. On a team, git allows centralized workflow.
+With Git, you have the power to return back to a previous state if you somehow messup, or lose the code you are working on. On a team, git allows certalized workflow.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
