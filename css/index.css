@@ -3,48 +3,41 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
@@ -71,18 +64,57 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 30px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    padding-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content-about p {
+    padding: 0px 20px;
+}
+
+.top-content-about H1 {
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.top-content-about img {
+    margin-bottom: 30px;
+}
+
+.top-content img {
+    margin-bottom: 30px;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -112,10 +144,85 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-child(1) {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
+.card-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    margin: 15px;
+    border-bottom: 1px dashed black;
+}
+
+.cards h2 {
+    margin-top: 20px;
+}
+
+.cards a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    width: 130px;
+    padding: 10px 5px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+
+.bottom-content-about {
+    padding: 20px;
 }
 
 .bottom-content .text-container {

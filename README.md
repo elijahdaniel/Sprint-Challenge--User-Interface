@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+HTML is Hypertext Markup Language. The power of HTML let's you create what you want to be displayed on a webpage. HTML helps you format your text, hyperlinks and images. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display: Block; - Starts each item on a new line.
+Display: Inline; - Keeps a flow of all items on the same line 
 
 3. What are the 4 areas of the box model?
 
+Margin, border, padding, content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Y-axis - Vertical
+
 5. Explain why git is valuable to a team of developers.
+
+With Git, you have the power to return back to a previous state if you somehow messup, or lose the code you are working on. On a team, git allows certalized workflow.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
